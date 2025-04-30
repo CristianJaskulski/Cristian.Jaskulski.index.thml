@@ -1,69 +1,108 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Cristian Emanoel Jaskulski</title>
-  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #007BFF;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+      margin-top: 30px;
+    }
+
+    img {
+      width: 200px;
+      border-radius: 50%;
+      display: block;
+      margin: 20px auto;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    h1, h2 {
+      text-align: center;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .contato a {
+      display: inline-block;
+      margin: 10px 10px;
+      padding: 12px 20px;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .contato a.telefone { background-color: #007BFF; }
+    .contato a.email { background-color: #28a745; }
+    .contato a.linkedin { background-color: #0a66c2; }
+
+    .contato a:hover {
+      opacity: 0.85;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #777;
+    }
+  </style>
 </head>
 <body>
-  <header class="header">
-    <div class="container">
-      <h1>Cristian Emanoel Jaskulski</h1>
-      <p>Desenvolvedor Web | Criando soluções tecnológicas inovadoras</p>
-      <div class="buttons">
-        <a href="#sobre" class="btn">Sobre Mim</a>
-        <a href="#projetos" class="btn">Projetos</a>
-        <a href="#contato" class="btn">Contato</a>
-      </div>
-    </div>
+  <header>
+    <h1>Cristian Emanoel Jaskulski</h1>
+    <p>Estudante de Big Data no Agronegócio</p>
   </header>
 
-  <main>
-    <section id="sobre" class="section">
-      <div class="container">
-        <h2>Sobre Mim</h2>
-        <p>Sou um desenvolvedor apaixonado por tecnologia, sempre buscando aprender e aplicar as mais novas soluções no mundo da programação. Com foco em desenvolvimento web, busco criar sites e aplicações que sejam não apenas funcionais, mas também atrativas e responsivas.</p>
-      </div>
-    </section>
+  <section>
+    <img src="foto.jpg" alt="Cristian Jaskulski" />
 
-    <section id="projetos" class="section">
-      <div class="container">
-        <h2>Meus Projetos</h2>
-        <div class="project-list">
-          <div class="project-item">
-            <h3>Portfólio Pessoal</h3>
-            <p>Desenvolvi meu próprio portfólio para exibir minhas habilidades e projetos, utilizando GitHub Pages.</p>
-          </div>
-          <div class="project-item">
-            <h3>Aplicativo de Tarefas</h3>
-            <p>Um aplicativo simples para gerenciar tarefas do dia a dia, com funcionalidades de adicionar, editar e remover tarefas.</p>
-          </div>
-          <div class="project-item">
-            <h3>Site Institucional</h3>
-            <p>Desenvolvimento de site institucional para uma pequena empresa com design responsivo e otimização para SEO.</p>
-          </div>
-        </div>
-      </div>
-    </section>
+    <h2>Sobre Mim</h2>
+    <p>Sou apaixonado por tecnologia e inovação no campo. Atualmente, estou cursando <strong>Big Data no Agronegócio</strong> e quero me especializar em <strong>maquinário agrícola autônomo</strong>, com o objetivo de contribuir para a modernização e eficiência do setor agropecuário.</p>
 
-    <section id="contato" class="section">
-      <div class="container">
-        <h2>Entre em Contato</h2>
-        <p>Estou sempre aberto a novas oportunidades e colaborações! Se você quiser saber mais sobre meus projetos ou discutir possíveis parcerias, entre em contato comigo!</p>
-        <div class="buttons">
-          <a href="mailto:jaskulski2021@gmail.com" class="btn">Enviar E-mail</a>
-          <a href="https://github.com/CristianJaskulski" target="_blank" class="btn">Meu GitHub</a>
-          <a href="https://www.linkedin.com/in/cristian-emanoel-jaskulski-5b65852b0/" target="_blank" class="btn">Meu LinkedIn</a>
-        </div>
-      </div>
-    </section>
-  </main>
+    <h2>Interesses</h2>
+    <ul>
+      <li>Big Data e Análise de Dados</li>
+      <li>Automação e Agricultura de Precisão</li>
+      <li>Máquinas agrícolas inteligentes</li>
+      <li>Tecnologia no campo</li>
+    </ul>
 
-  <footer class="footer">
-    <div class="container">
-      <p>&copy; 2025 Cristian Emanoel Jaskulski | Todos os direitos reservados</p>
+    <h2>Contato</h2>
+    <div class="contato">
+      <a class="telefone" href="tel:+5542999920945">📞 (42) 99992-0945</a>
+      <a class="email" href="mailto:jaskulski2017@gmail.com">✉️ jaskulski2017@gmail.com</a>
+      <a class="linkedin" href="https://www.linkedin.com/in/cristian-emanoel-jaskulski-5b65852b0/" target="_blank">🔗 Meu LinkedIn</a>
     </div>
+  </section>
+
+  <footer>
+    © 2025 Cristian Jaskulski. Todos os direitos reservados.
   </footer>
 </body>
 </html>
