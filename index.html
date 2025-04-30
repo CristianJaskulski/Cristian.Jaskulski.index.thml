@@ -3,51 +3,74 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Cristian Emanoel Jaskulski</title>
+  <title>Cristian Jaskulski | Big Data no Agronegócio</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
+    * {
+      box-sizing: border-box;
       margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background-color: #f4f4f4;
       color: #333;
+      line-height: 1.6;
     }
 
     header {
-      background-color: #007BFF;
+      background: linear-gradient(90deg, #007BFF, #0056b3);
       color: white;
-      padding: 40px 20px;
       text-align: center;
+      padding: 50px 20px;
     }
 
-    section {
-      padding: 40px 20px;
-      max-width: 800px;
-      margin: auto;
-      background-color: white;
-      border-radius: 8px;
-      box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
-      margin-top: 30px;
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: white;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
     }
 
     img {
       width: 200px;
+      height: 200px;
+      object-fit: cover;
       border-radius: 50%;
       display: block;
-      margin: 20px auto;
+      margin: 0 auto 30px;
       box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     }
 
-    h1, h2 {
-      text-align: center;
+    h2 {
+      margin-bottom: 15px;
+      color: #007BFF;
     }
 
     ul {
-      padding-left: 20px;
+      margin-left: 20px;
+      margin-bottom: 20px;
+    }
+
+    .contato {
+      text-align: center;
+      margin-top: 30px;
     }
 
     .contato a {
       display: inline-block;
-      margin: 10px 10px;
+      margin: 10px;
       padding: 12px 20px;
       color: white;
       border-radius: 8px;
@@ -56,53 +79,65 @@
       transition: background 0.3s ease;
     }
 
-    .contato a.telefone { background-color: #007BFF; }
-    .contato a.email { background-color: #28a745; }
-    .contato a.linkedin { background-color: #0a66c2; }
+    .telefone { background-color: #007BFF; }
+    .email { background-color: #28a745; }
+    .linkedin { background-color: #0a66c2; }
 
     .contato a:hover {
-      opacity: 0.85;
+      filter: brightness(0.9);
     }
 
     footer {
       text-align: center;
-      margin-top: 40px;
       padding: 20px;
-      font-size: 0.9em;
-      color: #777;
+      margin-top: 40px;
+      color: #666;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.8rem;
+      }
+      .container {
+        padding: 20px;
+      }
     }
   </style>
 </head>
 <body>
+
   <header>
     <h1>Cristian Emanoel Jaskulski</h1>
     <p>Estudante de Big Data no Agronegócio</p>
   </header>
 
-  <section>
+  <div class="container">
     <img src="foto.jpg" alt="Cristian Jaskulski" />
 
     <h2>Sobre Mim</h2>
-    <p>Sou apaixonado por tecnologia e inovação no campo. Atualmente, estou cursando <strong>Big Data no Agronegócio</strong> e quero me especializar em <strong>maquinário agrícola autônomo</strong>, com o objetivo de contribuir para a modernização e eficiência do setor agropecuário.</p>
+    <p>Olá! Sou Cristian Jaskulski, apaixonado por tecnologia no campo e inovação no agronegócio. Atualmente curso <strong>Big Data no Agronegócio</strong> e tenho grande interesse em desenvolver soluções com <strong>máquinas agrícolas autônomas</strong>, contribuindo para uma agricultura mais eficiente, sustentável e inteligente.</p>
 
-    <h2>Interesses</h2>
+    <h2>Áreas de Interesse</h2>
     <ul>
-      <li>Big Data e Análise de Dados</li>
+      <li>Big Data e Análise de Dados no campo</li>
       <li>Automação e Agricultura de Precisão</li>
       <li>Máquinas agrícolas inteligentes</li>
-      <li>Tecnologia no campo</li>
+      <li>Internet das Coisas (IoT) no Agronegócio</li>
+      <li>Inovação tecnológica no setor rural</li>
     </ul>
 
     <h2>Contato</h2>
     <div class="contato">
       <a class="telefone" href="tel:+5542999920945">📞 (42) 99992-0945</a>
       <a class="email" href="mailto:jaskulski2017@gmail.com">✉️ jaskulski2017@gmail.com</a>
-      <a class="linkedin" href="https://www.linkedin.com/in/cristian-emanoel-jaskulski-5b65852b0/" target="_blank">🔗 Meu LinkedIn</a>
+      <a class="linkedin" href="https://www.linkedin.com/in/cristian-emanoel-jaskulski-5b65852b0/" target="_blank">🔗 LinkedIn</a>
     </div>
-  </section>
+  </div>
 
   <footer>
     © 2025 Cristian Jaskulski. Todos os direitos reservados.
   </footer>
+
 </body>
 </html>
